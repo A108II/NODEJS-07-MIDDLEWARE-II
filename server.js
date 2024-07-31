@@ -37,8 +37,6 @@ const router = require('./routes/subdir');
 
 const PORT = process.env.PORT || 3500;
 
-
-
 const whiteList = ['https://www.google.com', 'http://127.0.0.1:5500', 'http://localhost:3500']
 // Here I define webite domains that can make a request and access to the backend node server. 
 const cors_options = {
